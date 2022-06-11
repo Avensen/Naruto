@@ -15,7 +15,7 @@
 		<div class="mx-auto w-full max-w-sm lg:w-96">
 			<div>
 				<img class="h-12 w-auto" src="logo.svg" alt="Workflow" />
-				<h2 class="mt-6 text-3xl font-extrabold text-gray-900">Accede a tu cuenta</h2>
+				<h2 class="mt-6 text-3xl font-extrabold text-gray-900">Accede a la aldea</h2>
 			</div>
 
 			<div class="mt-8">
@@ -25,7 +25,7 @@
 							<div class="w-full border-t border-gray-300" />
 						</div>
 						<div class="relative flex justify-center text-sm">
-							<span class="px-2 bg-white text-gray-500"> Iniciar sesión con </span>
+							<span class="px-2 bg-white text-gray-500"> Iniciar sesión </span>
 						</div>
 					</div>
 				</div>
@@ -33,7 +33,7 @@
 				<div class="mt-6">
 					<form action="#" method="POST" class="space-y-6">
 						<div>
-							<label for="email" class="block text-sm font-medium text-gray-700"> Usuario </label>
+							<label for="email" class="block text-sm font-medium text-gray-700"> Habitante </label>
 							<div class="mt-1">
 								<input
 									id="email"
@@ -47,7 +47,7 @@
 						</div>
 
 						<div class="space-y-1">
-							<label for="password" class="block text-sm font-medium text-gray-700"> Contraseña </label>
+							<label for="password" class="block text-sm font-medium text-gray-700"> Palabra Secreta </label>
 							<div class="mt-1">
 								<input
 									id="password"
@@ -75,7 +75,7 @@
 							<button
 								type="submit"
 								class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-prihover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-prihover"
-								>Iniciar sesión</button
+								>Entrar a la aldea</button
 							>
 						</div>
 					</form>
@@ -85,7 +85,7 @@
 								<div class="w-full border-t border-gray-300" />
 							</div>
 							<div class="relative flex justify-center text-sm">
-								<span class="px-2 bg-white text-gray-500"> ¿No tienes cuenta? </span>
+								<span class="px-2 bg-white text-gray-500"> ¿Eres nuevo? </span>
 							</div>
 						</div>
 
