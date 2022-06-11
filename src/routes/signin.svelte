@@ -2,14 +2,10 @@
 	import Button from '../lib/components/Button.svelte';
 </script>
 
-<!--
-  This example requires updating your template:
+<svelte:head>
+   <title>Konohagakure - Puerta de la Aldea</title>
+</svelte:head>
 
-  ```
-  <html class="h-full bg-white">
-  <body class="h-full">
-  ```
--->
 <div class="min-h-full h-screen flex">
 	<div class="flex-1 flex flex-col justify-center py-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
 		<div class="mx-auto w-full max-w-sm lg:w-96">
@@ -19,7 +15,7 @@
 			</div>
 
 			<div class="mt-8">
-				<div>
+				<!-- <div>
 					<div class="mt-6 relative">
 						<div class="absolute inset-0 flex items-center" aria-hidden="true">
 							<div class="w-full border-t border-gray-300" />
@@ -28,7 +24,7 @@
 							<span class="px-2 bg-white text-gray-500"> Iniciar sesión </span>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="mt-6">
 					<form action="#" method="POST" class="space-y-6">
