@@ -3,5 +3,5 @@
 </script>
 
 <div class="flex justify-center items-center p-10">
-	<Button text="Button" variant="primary" href="/" target="" />
+	<Button text="Button" variant="primary" href="/signin" target="" />
 </div>
