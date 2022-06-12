@@ -4,7 +4,7 @@
 
 	import { fade, fly, slide, draw } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
-import Table from '../lib/components/Table.svelte';
+	import Table from '../lib/components/Table.svelte';
 
 	let profileMenuDropped = false;
 	let name = 'Sasuke Uchiha';
@@ -68,9 +68,7 @@ import Table from '../lib/components/Table.svelte';
 								transition:slide={{ delay: 50, duration: 330, easing: quintOut }}
 							>
 								<!-- Active: "bg-gray-100", Not Active: "" -->
-								<a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:text-primary" role="menuitem" tabindex="-1" id="user-menu-item-0"
-									>Inicio</a
-								>
+
 								<a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:text-primary" role="menuitem" tabindex="-1" id="user-menu-item-0"
 									>Mi Perfil</a
 								>
@@ -83,16 +81,11 @@ import Table from '../lib/components/Table.svelte';
 				</div>
 
 				<div class="w-full py-5 lg:border-t lg:border-white lg:border-opacity-20">
-					<div class="lg:grid lg:grid-cols-3 lg:gap-8 lg:items-center invisible">
+					<div class="lg:grid lg:grid-cols-3 lg:gap-8 lg:items-center">
 						<div class="hidden lg:block lg:col-span-2">
-							<nav class="flex space-x-4">
-								<a href="#" class="text-white text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10" aria-current="page">
-									Inicio
-								</a>
-								<a href="#" class="text-white text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10"> Mi Perfil </a>
-							</nav>
+							<h1 class="text-3xl font-bold py-4 text-white">Inicio</h1>
 						</div>
-						<div class="px-12 lg:px-0">
+						<div class="px-12 lg:px-0 invisible">
 							<div class="max-w-xs mx-auto w-full lg:max-w-md flex justify-end">
 								<Dropdown />
 							</div>
@@ -320,14 +313,25 @@ import Table from '../lib/components/Table.svelte';
 						</div>
 					</section>
 				</div>
-
 			</div>
 		</div>
 	</main>
 	<footer>
 		<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
 			<div class="border-t border-gray-200 py-8 text-sm text-gray-500 text-center sm:text-left">
-				<span class="block sm:inline">&copy; Gobierno de Konoha.</span> <span class="block sm:inline">Todas las libertades reservadas.</span>
+				<span class="block sm:inline">&copy; Gobierno de Konoha.</span>
+				<span class="block sm:inline">Todas las libertades reservadas.</span>
+				<span class="block sm:inline"
+					>Made with
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline text-primary" viewBox="0 0 20 20" fill="currentColor">
+						<path
+							fill-rule="evenodd"
+							d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					in <img src="svelte-logo.png" alt="Svelte Logo" class="h-4 w-auto inline" /></span
+				>
 			</div>
 		</div>
 	</footer>
