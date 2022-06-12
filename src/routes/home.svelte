@@ -83,7 +83,7 @@ import Table from '../lib/components/Table.svelte';
 				</div>
 
 				<div class="w-full py-5 lg:border-t lg:border-white lg:border-opacity-20">
-					<!-- <div class="lg:grid lg:grid-cols-3 lg:gap-8 lg:items-center">
+					<div class="lg:grid lg:grid-cols-3 lg:gap-8 lg:items-center invisible">
 						<div class="hidden lg:block lg:col-span-2">
 							<nav class="flex space-x-4">
 								<a href="#" class="text-white text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10" aria-current="page">
@@ -97,7 +97,7 @@ import Table from '../lib/components/Table.svelte';
 								<Dropdown />
 							</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
 
 				<!-- Menu button -->
@@ -105,7 +105,7 @@ import Table from '../lib/components/Table.svelte';
 					<!-- Mobile menu button -->
 					<button
 						type="button"
-						class="bg-transparent p-2 rounded-md inline-flex items-center justify-center text-cyan-200 hover:text-white hover:bg-white hover:bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-white"
+						class="bg-transparent p-2 rounded-md inline-flex items-center justify-center text-white hover:text-white hover:bg-white hover:bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-white"
 						aria-expanded="false"
 					>
 						<span class="sr-only">Open main menu</span>
@@ -147,7 +147,7 @@ import Table from '../lib/components/Table.svelte';
 		</div>
 
 		<!-- Mobile menu, show/hide based on mobile menu state. -->
-		<div class="lg:hidden">
+		<div class="hidden">
 			<!--
          Mobile menu overlay, show/hide based on mobile menu state.
  
