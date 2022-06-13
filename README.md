@@ -1,38 +1,21 @@
-# create-svelte
+# El Pedido de Naruto
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Autores
 
-## Creating a project
+- Belsai Arango Hernández - 99050505053
+- Lidier Robaina Caraballo - 98101503462
+- Leandro
+- Rodovaldo González Morejón - 98012002541
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Objetivos
+El software ofrecido permite la visualización y manejo de los datos sobre la Aldea Oculta de la Hoja (Konoha). Como son los habitantes de la aldea, particularmente de aquellos habitantes que son ninjas, los equipos formados por estos y las misiones que realizan.
 
-```bash
-# create a new project in the current directory
-npm init svelte
+## Requerimientos técnicos
+ - Procesador de un núcleo o superior compatible con algún sistema operativo donde pueda instalarse un navegador web.
+ - RAM de 256 MB o superior.
+ - Almacenamiento de 1 GB o superior.
+## Requerimientos de Software
+ - Navegador Web
 
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Modo de acceso a la aplicación
+Para acceder a la aplicación entre por el siguiente enlace [naruto-avensen.vercel.app](https://naruto-avensen.vercel.app)
