@@ -19,3 +19,7 @@ El software ofrecido permite la visualización y manejo de los datos sobre la Al
 
 ## Modo de acceso a la aplicación
 Para acceder a la aplicación entre por el siguiente enlace [naruto-avensen.vercel.app](https://naruto-avensen.vercel.app)
+
+#
+
+> Este README será cambiado en los próximos commits.
