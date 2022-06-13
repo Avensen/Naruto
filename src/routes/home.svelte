@@ -299,8 +299,8 @@
 								</div>
 
 								<div class="px-6 py-5 text-sm font-medium text-center">
-									<span class="text-gray-900">1</span>
-									<span class="text-gray-600">Pan por la Libreta</span>
+									<span class="text-gray-900">4</span>
+									<span class="text-gray-600">Bestias Invocadas</span>
 								</div>
 							</div>
 						</div>
