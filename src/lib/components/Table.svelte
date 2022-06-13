@@ -33,17 +33,17 @@
 								<th
 									scope="col"
 									class="sticky top-0 z-10 hidden border-b border-gray-300 bg-gray-50 bg-opacity-75 px-3 py-3.5 text-left text-sm font-semibold text-gray-900 backdrop-blur backdrop-filter sm:table-cell"
-									>Clase</th
+									>Categoría</th
 								>
 								<th
 									scope="col"
 									class="sticky top-0 z-10 hidden border-b border-gray-300 bg-gray-50 bg-opacity-75 px-3 py-3.5 text-left text-sm font-semibold text-gray-900 backdrop-blur backdrop-filter lg:table-cell"
-									>Elemento</th
+									>Sexo</th
 								>
 								<th
 									scope="col"
 									class="sticky top-0 z-10 border-b border-gray-300 bg-gray-50 bg-opacity-75 px-3 py-3.5 text-left text-sm font-semibold text-gray-900 backdrop-blur backdrop-filter"
-									>Técnica Principal</th
+									>Chakra Pool</th
 								>
 								<!-- <th
 									scope="col"
@@ -59,13 +59,13 @@
                            Sasuke Uchiha
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500 hidden sm:table-cell">
-                           Ninja
+                           Jounin
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500 hidden lg:table-cell">
-                           Rayo
+                           Masculino
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500">
-                           Chidori
+                           100
                         </td>
 								<!-- <td class="relative whitespace-nowrap border-b border-gray-200 py-4 pr-4 pl-3 text-right text-sm font-medium sm:pr-6 lg:pr-8">
 									<a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Lindsay Walton</span></a>
@@ -76,13 +76,13 @@
                            Naruto Uzumaki
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500 hidden sm:table-cell">
-                           Ninja
+                           Jounin
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500 hidden lg:table-cell">
-                           Viento
+                           Masculino
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500">
-                           Rasengan
+                           200
                         </td>
 								<!-- <td class="relative whitespace-nowrap border-b border-gray-200 py-4 pr-4 pl-3 text-right text-sm font-medium sm:pr-6 lg:pr-8">
 									<a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Lindsay Walton</span></a>
@@ -93,13 +93,13 @@
                            Kakashi Hatake
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500 hidden sm:table-cell">
-                           Ninja
+                           Jounin
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500 hidden lg:table-cell">
-                           Rayo
+                           Masculino
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500">
-                           Leer hentai
+                           150
                         </td>
 								<!-- <td class="relative whitespace-nowrap border-b border-gray-200 py-4 pr-4 pl-3 text-right text-sm font-medium sm:pr-6 lg:pr-8">
 									<a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Lindsay Walton</span></a>
@@ -110,13 +110,13 @@
                            Sakura Haruno
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500 hidden sm:table-cell">
-                           Ninja
+                           Jounin
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500 hidden lg:table-cell">
-                           Agua
+                           Femenino
                         </td>
 								<td class="whitespace-nowrap border-b border-gray-200 px-3 py-4 text-sm text-gray-500">
-                           Ser inútil
+                           110
                         </td>
 								<!-- <td class="relative whitespace-nowrap border-b border-gray-200 py-4 pr-4 pl-3 text-right text-sm font-medium sm:pr-6 lg:pr-8">
 									<a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Lindsay Walton</span></a>
