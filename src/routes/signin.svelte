@@ -67,13 +67,13 @@
 							</div>
 						</div> -->
 
-						<div>
+						<a href="/profiles/1">
 							<button
 								type="submit"
 								class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-prihover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-prihover"
 								>Entrar a la aldea</button
 							>
-						</div>
+						</a>
 					</form>
 					<div class="mt-6">
 						<div class="relative">
@@ -98,6 +98,6 @@
 		</div>
 	</div>
 	<div class="hidden lg:block relative w-0 flex-1">
-		<img class="absolute inset-0 h-full w-full object-cover" src="signin.jpg" alt="" />
+		<img class="absolute inset-0 h-full w-full object-cover bg-left" src="signin.jpg" alt="" />
 	</div>
 </div>

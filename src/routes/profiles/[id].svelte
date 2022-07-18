@@ -8,7 +8,7 @@
 	let profileMenuDropped = false;
 	let name = 'Sasuke Uchiha';
 	let tier = 'Jounin';
-	let thumbnail = 'sasuke.jpg';
+	let thumbnail = '/sasuke.jpg';
 
 	function toggleProfileMenu() {
 		profileMenuDropped = !profileMenuDropped;
@@ -23,7 +23,7 @@
 				<div class="absolute left-0 py-5 flex-shrink-0 lg:static">
 					<a href="/">
 						<span class="sr-only">Konohagakure</span>
-						<img class="h-10 w-auto" src="logo_white.png" alt="Konohagakure Logo" />
+						<img class="h-10 w-auto" src="/logo_white.svg" alt="Konohagakure Logo" />
 					</a>
 				</div>
 
@@ -166,7 +166,7 @@
 					<div class="pt-3 pb-2">
 						<div class="flex items-center justify-between px-4">
 							<div>
-								<img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-cyan-600.svg" alt="Workflow" />
+								<!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-cyan-600.svg" alt="Workflow" /> -->
 							</div>
 							<div class="-mr-2">
 								<button
